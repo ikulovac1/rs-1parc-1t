@@ -12,18 +12,17 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea"
-          xmlns:fx="http://javafx.com/fxml/1">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
    <stylesheets>
       <URL value="@/css/korisnici.css" />
    </stylesheets>
    <columnConstraints>
-      <ColumnConstraints maxWidth="200" minWidth="200" />
-      <ColumnConstraints maxWidth="100" minWidth="100" />
-      <ColumnConstraints />
+      <ColumnConstraints maxWidth="200.0" minWidth="200.0" />
+      <ColumnConstraints maxWidth="131.0" minWidth="100.0" prefWidth="118.0" />
+      <ColumnConstraints maxWidth="165.0" minWidth="140.0" prefWidth="153.0" />
    </columnConstraints>
    <rowConstraints>
+      <RowConstraints />
       <RowConstraints />
       <RowConstraints />
       <RowConstraints />
@@ -44,19 +43,19 @@
       <TextField fx:id="fldUsername" GridPane.columnIndex="2" GridPane.rowIndex="3" />
       <Label text="Lozinka:" GridPane.columnIndex="1" GridPane.rowIndex="4" />
       <PasswordField fx:id="fldPassword" GridPane.columnIndex="2" GridPane.rowIndex="4" />
-      <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.rowIndex="5">
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.rowIndex="6">
         <buttons>
 
-            <Button fx:id="btnObrisi" mnemonicParsing="false"  text="Obriši" />
-           
-            <Button fx:id="btnDodaj" mnemonicParsing="false"  text="Dodaj" />
+            <Button fx:id="btnObrisi" mnemonicParsing="false" text="Obriši" />
+          
+            <Button fx:id="btnDodaj" mnemonicParsing="false" text="Dodaj" />
            <!--toggle-button { -fx-graphic: url('https://drive.google.com/file/d/1EhaWaxPbemywpVtzVlEKpnnD8JP_ANbq/view');-->
            <!--}-->
 
            <!--.toggle-button:selected {-->
             <!-- -fx-graphic: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');-->
            <!--}-->
-            <Button fx:id="btnKraj" cancelButton="true" mnemonicParsing="false"  text="Kraj" />
+            <Button fx:id="btnKraj" cancelButton="true" mnemonicParsing="false" text="Kraj" />
            <!--toggle-button { -fx-graphic: url('https://drive.google.com/file/d/1NNKjZojKZQ427thABK3iQiGfLhaM1ZTX/view');-->
            <!--}-->
 
@@ -73,6 +72,8 @@
            <!--}-->
         </buttons>
       </ButtonBar>
+      <Label prefHeight="17.0" prefWidth="118.0" text="Ponovi lozinku" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <TextField fx:id="fldPasswordRepeat" GridPane.columnIndex="2" GridPane.rowIndex="5" />
    </children>
    <padding>
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
