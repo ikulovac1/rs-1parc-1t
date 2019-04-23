@@ -46,6 +46,9 @@
       <PasswordField fx:id="fldPassword" GridPane.columnIndex="2" GridPane.rowIndex="4" />
       <ButtonBar prefHeight="40.0" prefWidth="200.0" GridPane.columnSpan="3" GridPane.rowIndex="5">
         <buttons>
+
+            <Button fx:id="btnObrisi" mnemonicParsing="false"  text="Obriši" />
+           
             <Button fx:id="btnDodaj" mnemonicParsing="false"  text="Dodaj" />
            <!--toggle-button { -fx-graphic: url('https://drive.google.com/file/d/1EhaWaxPbemywpVtzVlEKpnnD8JP_ANbq/view');-->
            <!--}-->
@@ -61,7 +64,7 @@
            <!-- -fx-graphic: url('http://icons.iconarchive.com/icons/aha-soft/desktop-buffet/128/Piece-of-cake-icon.png');-->
            <!--}-->
 
-            <Button fx:id="btnObrisi" mnemonicParsing="false"  text="Obriši" />
+            <!--<Button fx:id="btnObrisi" mnemonicParsing="false"  text="Obriši" />-->
            <!--toggle-button { -fx-graphic: url('https://drive.google.com/file/d/194yK8atvfBhoRQTjSKZ4l-hcF1mWpW5L/view');-->
            <!--}-->
 
