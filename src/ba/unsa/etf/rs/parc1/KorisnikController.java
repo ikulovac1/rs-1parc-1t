@@ -1,4 +1,4 @@
-package ba.unsa.etf.rs.t5;
+package ba.unsa.etf.rs.parc1;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

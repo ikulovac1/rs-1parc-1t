@@ -1,4 +1,4 @@
-package ba.unsa.etf.rs.t5;
+package ba.unsa.etf.rs.parc1;
 
 import javafx.beans.property.SimpleObjectProperty;
 import javafx.collections.FXCollections;
